@@ -3,11 +3,10 @@ import React from "react";
 const Root = () => {
   return (
     <>
-      You can edit your package in:
-      <pre>packages/my-first-theme/src/index.js</pre>
+      <h1>Hello Frontity</h1>
     </>
-  );
-};
+  )
+}
 
 export default {
   name: "my-first-theme",
