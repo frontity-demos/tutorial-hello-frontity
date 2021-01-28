@@ -1,12 +1,12 @@
 import React from "react"
-import { connect } from "frontity"
+import { connect, styled } from "frontity"
 import Link from "@frontity/components/link"
 
 const List = ({ state }) => {
   const data = state.source.get(state.router.link)
 
   return (
-    <div>
+    <Items>
       {data.items.map((item) => {
         const post = state.source[item.type][item.id]
         return (
@@ -16,8 +16,18 @@ const List = ({ state }) => {
           </Link>
         )
       })}
-    </div>
+    </Items>
   )
 }
+
+const Items = styled.div`
+  & > a {
+    display: block;
+    margin: 6px 0;
+    font-size: 1.2em;
+    color: steelblue;
+    text-decoration: none;
+  }
+`
 
 export default connect(List)
