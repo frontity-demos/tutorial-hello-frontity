@@ -6,6 +6,7 @@ import List from "./list";
 import Post from "./post";
 import Page from "./page";
 import Loading from "./loading";
+import Error from "./error"
 
 const Root = ({ state, actions }) => {
   const data = state.source.get(state.router.link);
@@ -51,6 +52,7 @@ const Root = ({ state, actions }) => {
           <Post when={data.isPost} />
           <Page when={data.isPage} />
           <Page when={data.isDestinations} />
+          <Error when={data.isError} />
         </Switch>
       </Main>
     </>
