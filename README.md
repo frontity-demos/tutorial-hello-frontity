@@ -1,26 +1,26 @@
 # tutorial-hello-frontity
 
-This is the project explained in the Step By Step tutorial available at [tutorial.frontity.org](tutorial.frontity.org)
+This is the project as explained in the Step By Step tutorial available at [tutorial.frontity.org](tutorial.frontity.org)
 
-### Accesing to the steps of the tutorial
+### Accessing the steps of the tutorial
 
-Every [commit](https://github.com/frontity-demos/tutorial-hello-frontity/commits/main) of the repo correponds to a step explained in the tutorial. [These commits are tagged](https://github.com/frontity-demos/tutorial-hello-frontity/tags) using the formula "StepX.X"
+Every [commit](https://github.com/frontity-demos/tutorial-hello-frontity/commits/main) in the repo corresponds to a step in the tutorial. [These commits are tagged](https://github.com/frontity-demos/tutorial-hello-frontity/tags) using the formula "StepX.X"
 
-So, once you have cloned your repository by doing (for example)
+So, once you have cloned your repository by running (for example)
 
 ```
-git clone git@github.com:frontity-demos/tutorial-hello-frontity.git
+git clone https://github.com/frontity-demos/tutorial-hello-frontity.git
 ```
 
-you'll get the final versión of the project, but you can go to a specific step of the tutorial by doing 
+you'll get the final version of the project, but you can go to a specific step of the tutorial by executing:
 
 ```
 git checkout Step4.1
 ```
 
-The list of available tags (steps()) that can used with `git checkout` is [here](https://github.com/frontity-demos/tutorial-hello-frontity/tags)
+The list of available tags (steps()) that can be used with `git checkout` is [here](https://github.com/frontity-demos/tutorial-hello-frontity/tags)
 
-To return to the final version you can do
+To return to the final version you can execute:
 
 ```
 git checkout main
