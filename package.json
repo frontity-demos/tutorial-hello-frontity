@@ -24,6 +24,6 @@
     "@frontity/wp-source": "^1.10.0",
     "dayjs": "^1.10.4",
     "frontity": "^1.13.0",
-    "my-first-theme": "file:packages/my-first-theme"
+    "my-first-theme": "./packages/my-first-theme"
   }
 }

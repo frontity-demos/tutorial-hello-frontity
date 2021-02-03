@@ -18,7 +18,7 @@ you'll get the final versión of the project, but you can go to a specific step 
 git checkout Step4.1
 ```
 
-The list of available tags (steps()) that can used with `git checkout` is [here](https://github.com/frontity-demos/tutorial-hello-frontity/tags)
+The list of available tags (steps) that can be used with `git checkout` is [here](https://github.com/frontity-demos/tutorial-hello-frontity/tags)
 
 To return to the final version you can do
 
