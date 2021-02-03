@@ -19,7 +19,6 @@
   "dependencies": {
     "@frontity/core": "^1.9.1",
     "@frontity/html2react": "^1.5.0",
-    "@frontity/mars-theme": "./packages/mars-theme",
     "@frontity/tiny-router": "^1.2.4",
     "@frontity/wp-source": "^1.10.0",
     "dayjs": "^1.10.4",
