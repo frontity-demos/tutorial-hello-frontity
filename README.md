@@ -1,26 +1,30 @@
 # tutorial-hello-frontity
 
-This is the project explained in the Step By Step tutorial available at [tutorial.frontity.org](tutorial.frontity.org)
+This is the project as explained in the Step By Step tutorial available at [tutorial.frontity.org](tutorial.frontity.org)
 
-### Accesing to the steps of the tutorial
+### Accessing the steps of the tutorial
 
-Every [commit](https://github.com/frontity-demos/tutorial-hello-frontity/commits/main) of the repo correponds to a step explained in the tutorial. [These commits are tagged](https://github.com/frontity-demos/tutorial-hello-frontity/tags) using the formula "StepX.X"
+Every [commit](https://github.com/frontity-demos/tutorial-hello-frontity/commits/main) in the repo corresponds to a step in the tutorial. [These commits are tagged](https://github.com/frontity-demos/tutorial-hello-frontity/tags) using the formula "StepX.X"
 
-So, once you have cloned your repository by doing (for example)
+So, once you have cloned your repository by running (for example)
 
 ```
-git clone git@github.com:frontity-demos/tutorial-hello-frontity.git
+git clone https://github.com/frontity-demos/tutorial-hello-frontity.git
 ```
 
-you'll get the final versión of the project, but you can go to a specific step of the tutorial by doing 
+you'll get the final version of the project, but you can go to a specific step of the tutorial by executing:
 
 ```
 git checkout Step4.1
 ```
 
+<<<<<<< HEAD
 The list of available tags (steps) that can be used with `git checkout` is [here](https://github.com/frontity-demos/tutorial-hello-frontity/tags)
+=======
+The list of available tags (steps()) that can be used with `git checkout` is [here](https://github.com/frontity-demos/tutorial-hello-frontity/tags)
+>>>>>>> d9df7d4304eff95c3ce984ba21a38ca02b8a2931
 
-To return to the final version you can do
+To return to the final version you can execute:
 
 ```
 git checkout main
@@ -40,16 +44,13 @@ The site will automatically reload if you make changes inside the `packages` fol
 
 ### » Frontity Channels 🌎
 
-We have different channels at your disposal where you can find information about the project, discuss about it and get involved:
+We'd love for you to be part of our ever-growing community. There are a variety of different ways in which you can find information about the project, discuss about it, and contribute to it.
 
-- 📖 **[Docs](https://docs.frontity.org)**: this is the place to learn how to build amazing sites with Frontity.
-- 👨‍👩‍👧‍👦 **[Community](https://community.frontity.org/)**: use our forum to [ask any questions](https://community.frontity.org/c/dev-talk-questions), feedback and meet great people. This is your place too to share [what are you building with Frontity](https://community.frontity.org/c/showcases)!
-- 🐞 **[GitHub](https://github.com/frontity/frontity)**: we use GitHub for bugs and pull requests. Questions are answered in the [community forum](https://community.frontity.org/)!
-- 🗣 **Social media**: a more informal place to interact with Frontity users, reach out to us on [Twitter](https://twitter.com/frontity).
-- 💌 **Newsletter**: do you want to receive the latest framework updates and news? Subscribe [here](https://frontity.org/)
+* **📖  [Docs](https://docs.frontity.org):** this is the place to learn how to build amazing sites with Frontity.
+* **👨‍👩‍👧‍👦  [Community forum]((https://community.frontity.org/)):** join our forum and ask questions, share your knowledge, give us feedback and tell us how we're doing, and meet other cool Frontity people. We'd also love to know about what you're building with Frontity, so please do swing by the [forum](https://community.frontity.org/) and tell us about your projects.
+* **🐞  Contribute:** we use [GitHub](https://github.com/frontity/frontity) for bugs and pull requests. See our [Contributing](https://docs.frontity.org/contributing) section to find out how you can help develop Frontity, or improve the documentation.
+* **🗣  Social media**: interact with other Frontity users. Reach out to us on [Twitter](https://twitter.com/frontity). Mention us in your tweets about Frontity and what you're building by using **`@frontity`** or **`#frontity`**.
+* 💌  **Newsletter:** do you want to receive the latest news about Frontity and find out as soon as there's an update to the framework? Subscribe to our [newsletter](https://frontity.org/#newsletter).
 
-### » Get involved 🤗
+Wondering why should get involved? Read [**this article**](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source) about contributing to open source software.
 
-Got questions or feedback about Frontity? We'd love to hear from you. Use our [community forum](https://community.frontity.org) yo ! ❤️
-
-Frontity also welcomes contributions. There are many ways to support the project! If you don't know where to start, this guide might help → [How to contribute?](https://docs.frontity.org/contributing/how-to-contribute)
